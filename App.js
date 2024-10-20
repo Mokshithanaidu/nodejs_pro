@@ -1,7 +1,7 @@
 const express=require('express');
 const app=express();
 const port=3000;
-p.get("/", (req, res)=>
+app.get("/", (req, res)=>
 {
 res.send("<h1>hello world</h1>");
 });
