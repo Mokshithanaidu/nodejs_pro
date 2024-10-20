@@ -7,6 +7,6 @@ res.send("<h1>hello world</h1>");
 });
 app.listen(port, ()=>
 {
-console.log(app listening to the port ${port});
+console.log(`app listening to the port ${port}`);
 }
 )
